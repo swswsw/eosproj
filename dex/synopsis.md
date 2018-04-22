@@ -21,6 +21,7 @@ The market maker (seller) creates the contract.  The contract will lock the sell
 
 Pseuocode of an DUC contract
 
+```
 var tokenSell = {
   amount:
   type:
@@ -46,3 +47,4 @@ function cancel() {
   return tokenSell to seller
   delete contract
 }
+```
