@@ -53,7 +53,7 @@ function cancel() {
 
 ### Creating the maker order
 
-Although our contract source code will be open source and provided to public for their examination, it is unlikely that the user will create the contract by copy and paste our contract code.  Instead, an open source website will be provided for the user to create an order at the push of a button.  On the website's frontend, it will create and deploy the contract.  The user does not need to know how to create and deploy the contract.  The user can still view the contract created and verify the contract on other websites.  These other websites are called verifier websites.  A separate service will constantly running to check the integrity of the exchange website.  
+Although our contract source code will be open source and provided to public for their examination, it is unlikely that the user will create the contract by copy and paste our contract code.  Instead, an open source website will be provided for the user to create an order at the push of a button.  On the website's frontend, it will create and deploy the contract.  Since the contract is created on the frontend, it retain the complete decentralization and does not rely on trusting a middleman.  It is decentralized and non-proprietary, third-party can also create the website to provide the same service.  The user does not need to know how to create and deploy the contract.  The user can still view the contract created and verify the contract on other websites.  These other websites are called verifier websites.  A separate service will constantly running to check the integrity of the exchange website.  
 
 ### View the existing order
 
