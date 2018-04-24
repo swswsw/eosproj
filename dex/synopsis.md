@@ -11,7 +11,7 @@ Orion Dex is an exchange based on "discrete unit contract" (DUC), a concept that
 
 ## Advantages
 
-One of the biggest issue with smart contract is hacking and unintended use.  A DUC contract will be very compact.  The less code on smart contract, the better.  In addition to reduce the attack surface, DUC contract will be easier to maintain and upgrade.  DUC also provide 1005 transparency to order book.
+One of the biggest issue with smart contract is hacking and unintended use.  A DUC contract will be very compact.  The less code on smart contract, the better.  In addition to reduce the attack surface, DUC contract will be easier to maintain and upgrade.  DUC also provide transparency to order book.
 
 ## Prose Description
 
@@ -58,3 +58,9 @@ Although our contract source code will be open source and provided to public for
 ### View the existing order
 
 Service and website will browse the blockchain and display the orders to the user.  Providing an experience that is similar to either OTC site (eg. Huobi OTC) or exchanges (eg. GDAX)
+
+An index service built by us or third parties can browse the blockchain and aggregate the orderbook.  Making it easier for the service or website to display the orders to the user.  More info about this on ## Index service section.  Website do not need to use the index service, but the index service makes things easier.
+
+## Index service and API
+
+An index service can look at the blockchain and aggregate the orderbook.  This is an optional component.  This service may be built by us or provided by a third party.  We define the contract spec.  A third party could index it from the public blockchain data.  The index service will provide an API that shows the orderbook and volume.  The index service API spec will be drafted.
